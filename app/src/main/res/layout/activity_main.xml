@@ -5,34 +5,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
-    TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
     <ImageButton
+        android:src="@drawable/arnold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/IBTN_Arnold"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/IBTN_Cage"
+        android:onClick="arnoldClick"
+        android:contentDescription="Une photo d'Arnold SHAWTZERNIGGER" />
 
     <ImageButton
+        android:src="@drawable/cage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/IBTN_Cage"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="cageClick"
+        android:contentDescription="NIC CAGE" />
 
     <ImageButton
+        android:src="@drawable/queen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/IBTN_Queen"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignTop="@+id/IBTN_Cage"
+        android:layout_toEndOf="@+id/IBTN_Cage"
+        android:onClick="queenClick"
+        android:contentDescription="La reine" />
 
     <TextView
-        android:id="@+id/zone_celeb"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/quote"
+        android:id="@+id/textView"
+        android:layout_marginTop="116dp"
         android:layout_below="@+id/IBTN_Arnold"
         android:layout_alignParentStart="true" />
 </RelativeLayout>

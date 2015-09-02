@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Celeb</string>
+    <string name="quote">Appuyez sur une photo pour obtenir une citation de la célébrité</string>
 </resources>
