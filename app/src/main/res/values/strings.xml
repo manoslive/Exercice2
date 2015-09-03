@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Celeb</string>
     <string name="quote">Appuyez sur une photo pour obtenir une citation de la célébrité</string>
+    <string name="number">-1</string>
+    <string name="arnold_1">"Hasta la vista baby!"</string>
+    <string name="arnold_2">"Get down!"</string>
+    <string name="arnold_3">"Get down again!"</string>
+    <string name="arnold_4">"It\'s show time!"</string>
+    <string name="arnold_5">"If it bleeds, we can kill it!"</string>
+    <string name="cage_1">“Put… the bunny… back… in the box.” (Con Air)</string>
+    <string name="cage_2">“How, in the name of Zeus’ butthole, did you get out of your cell?” (The Rock)</string>
+    <string name="cage_3">“You mean… my wang?” (Peggy Sue Got Married)</string>
+    <string name="cage_4">“THIS IS MY MECCA! AHAHAHAHAHA! AHAHAHAHA!” (Grindhouse)</string>
+    <string name="cage_5">“What do you say we cut the CHITCHAT, A-HOLE?” (The Rock)</string>
+    <string name="queen_1">“I have to be seen to be believed.”</string>
+    <string name="queen_2">“Like all the best families, we have our share of eccentricities, of impetuous and wayward youngsters and of family disagreements.”</string>
+    <string name="queen_3">"At its heart, engineering is about using science to find creative, practical solutions. It is a noble profession."</string>
+    <string name="queen_4">"It's all to do with the training: you can do a lot if you're properly trained."</string>
+    <string name="queen_5">"Like all best families, we have our share of eccentricities, of impetuous and wayward youngsters and of family disagreements."</string>
 </resources>
