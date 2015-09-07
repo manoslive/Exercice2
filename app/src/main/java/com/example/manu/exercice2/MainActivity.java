@@ -17,10 +17,11 @@ public class MainActivity extends AppCompatActivity {
         TextView couleurPanel = (TextView) findViewById(R.id.the_quote);
         String quote = "";
         Random r = new Random();
-        int rand = r.nextInt(5);
+        int rand = r.nextInt(5) + 1;
         int lastRand = -1;
             while (rand == lastRand) {
-                rand = r.nextInt(5);
+                rand = r.nextInt(5) + 1;
+                lastRand = rand;
             }
             lastRand = rand;
 
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         int rand = r.nextInt(5) + 1;
         int lastRand = -1;
         while (rand == lastRand) {
-            rand = r.nextInt(5);
+            rand = r.nextInt(5) + 1;
+            lastRand = rand;
         }
         lastRand = rand;
 
@@ -81,27 +83,28 @@ public class MainActivity extends AppCompatActivity {
         TextView couleurPanel = (TextView) findViewById(R.id.the_quote);
         String quote = "";
         Random r = new Random();
-        int rand = r.nextInt(5);
+        int rand = r.nextInt(5) + 1;
         int lastRand = -1;
             while (rand == lastRand) {
-                rand = r.nextInt(5);
+                rand = r.nextInt(5) + 1;
+                lastRand = rand;
             }
             lastRand = rand;
 
             switch (rand) {
-                case 1:
+                case 0:
                     quote = getString(R.string.queen_1);
                     break;
-                case 2:
+                case 1:
                     quote = getString(R.string.queen_2);
                     break;
-                case 3:
+                case 2:
                     quote = getString(R.string.queen_3);
                     break;
-                case 4:
+                case 3:
                     quote = getString(R.string.queen_4);
                     break;
-                case 5:
+                case 4:
                     quote = getString(R.string.queen_5);
                     break;
             }
