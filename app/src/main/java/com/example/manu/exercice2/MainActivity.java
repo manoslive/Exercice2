@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         TextView couleurPanel = (TextView) findViewById(R.id.the_quote);
         String quote = "";
         Random r = new Random();
-        int rand = r.nextInt(5) + 1;
+        int rand = r.nextInt(5);
         int lastRand = -1;
             while (rand == lastRand) {
-                rand = r.nextInt(5) + 1;
+                rand = r.nextInt(5);
             }
             lastRand = rand;
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         int rand = r.nextInt(5) + 1;
         int lastRand = -1;
         while (rand == lastRand) {
-            rand = r.nextInt(5) + 1;
+            rand = r.nextInt(5);
         }
         lastRand = rand;
 
@@ -81,11 +81,10 @@ public class MainActivity extends AppCompatActivity {
         TextView couleurPanel = (TextView) findViewById(R.id.the_quote);
         String quote = "";
         Random r = new Random();
-        int rand = r.nextInt(5) + 1;
+        int rand = r.nextInt(5);
         int lastRand = -1;
-        if (ima3.isPressed()) {
             while (rand == lastRand) {
-                rand = r.nextInt(5) + 1;
+                rand = r.nextInt(5);
             }
             lastRand = rand;
 
@@ -107,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             couleurPanel.setText(quote);
-        }
     }
 
     @Override
